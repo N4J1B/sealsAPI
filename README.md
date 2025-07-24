@@ -15,6 +15,8 @@ API ini diamankan menggunakan autentikasi berbasis API Key.
 
 ## Contoh Penggunaan Endpoint API
 
+**Live Host :** `https://api.ainuns.my.id/chat`
+
 ### 1. Mengajukan Pertanyaan Baru
 
 Endpoint ini digunakan untuk mengajukan pertanyaan. Jika `conversation_id` tidak disertakan, maka sebuah percakapan baru akan dibuat.
@@ -108,8 +110,7 @@ Endpoint ini untuk mengambil semua percakapan yang ada.
                     "createdAt": "2025-07-23T04:54:36.428+00:00",
                     "updatedAt": "2025-07-23T04:54:36.428+00:00"
                 }
-            },
-            ....
+            }
         ]
     }
     ```
@@ -146,8 +147,7 @@ Endpoint ini untuk mengambil semua pesan dari sebuah percakapan.
                 "message": "Majadigi menyediakan lebih dari 36 layanan publik unggulan untuk Provinsi Jawa Timur, yang mencakup berbagai kategori seperti:\n\n1. **Kesehatan & Medis**:\n   - RSUD Dr. Soetomo - Layanan rumah sakit rujukan nasional dengan pendaftaran online.\n   - E-TIBI - Aplikasi skrining mandiri Tuberkulosis berbasis website.\n   - Layanan BNN - Deteksi dini narkoba, rehabilitasi, dan asesmen terpadu.\n\n2. **Ketenagakerjaan & Ekonomi**:\n   - Berbagai layanan terkait ketenagakerjaan dan ekonomi.\n\n3. **Keagamaan & Budaya**:\n   - Islamic Center - Pusat kegiatan dan fasilitas keagamaan Islam.\n   - Cak Durasim - Gedung pertunjukan Taman Budaya Jawa Timur.\n   - 360 East Java Virtual Tour - Wisata virtual destinasi Jawa Timur.\n\n4. **Keselamatan Kerja**:\n   - SIMPEL K3 - Sistem pelayanan pengujian Kesehatan dan Keselamatan Kerja.\n\n5. **Pariwisata**:\n   - SIDITA - Sistem informasi destinasi wisata Jawa Timur.\n\nMajadigi menawarkan kemudahan akses layanan pemerintah dalam satu pintu untuk memenuhi berbagai kebutuhan masyarakat.",
                 "createdAt": "2025-07-23T06:08:35.164+00:00",
                 "updatedAt": "2025-07-23T06:08:35.164+00:00"
-            },
-            .....
+            }
         ]
     }
     ```
