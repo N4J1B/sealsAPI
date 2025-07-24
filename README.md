@@ -21,7 +21,7 @@ API ini diamankan menggunakan autentikasi berbasis API Key.
 
 Endpoint ini digunakan untuk mengajukan pertanyaan. Jika `conversation_id` tidak disertakan, maka sebuah percakapan baru akan dibuat.
 
--   **URL:** `/questions`
+-   **URL:** `/question`
 -   **Metode:** `POST`
 -   **Body (JSON):**
     ```json
@@ -65,7 +65,7 @@ Endpoint ini untuk mengambil semua percakapan yang ada.
 
 -   **Header:**
     `x-api-key: <API_KEY>`
--   **URL:** `/conversations?page=1&limit=10`
+-   **URL:** `/conversation?page=1&limit=10`
 -   **Metode:** `GET`
 
 -   **Contoh Response :**
@@ -121,7 +121,7 @@ Endpoint ini untuk mengambil semua pesan dari sebuah percakapan.
 
 -   **Header:**
     `x-api-key: <API_KEY>`
--   **URL:** `/conversations/:id`
+-   **URL:** `/conversation/:id`
 -   **Metode:** `GET`
 
 -   **Contoh Response:**
